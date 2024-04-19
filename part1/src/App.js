@@ -10,7 +10,7 @@ return <h1>Estas es la app del curso</h1>
 
 }
 
-const Hola = () => {
+const VaraCola = () => {
 return <h1>Hola hola</h1>
 }
 
@@ -21,6 +21,7 @@ function App() {
       <Mensaje message='en un curso'/>
       <Mensaje message='de React'/>
       <Description/>
+      <VaraCola></VaraCola>
     </div>
   );
 }
